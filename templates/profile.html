@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zameen.com | profile</title>
+    <style>
+                body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 60vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to right, #385a7c, #f1f1f1);
+
+
+
+        }
+
+        h1 {
+        text-align: center;
+        margin-top: 130px;
+        color: #233;
+        font-size: 50px;
+        }
+
+        form {
+        width: 300px;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+        text-align: center; /* Center align the form content */
+        }
+
+        .h {
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: #333;
+        text-align: center;
+        }
+
+        .l {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 8px;
+        margin-bottom: 10px;
+
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        align-items: center;
+        }
+
+        #a {
+        width: 30%;
+        box-sizing: border-box;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        align-items: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Zameen.com</h1>
+    <form action="/perform_profile" method="post">
+        <label class="h">Country</label><br>
+        <input class="l" type="text" name="country"><br>
+
+        <label class="h">City</label><br>
+        <input class="l" type="text" name="city"><br>
+
+        <label class="h">Location</label><br>
+        <input class="l" type="text" name="location"><br>
+
+        <label class="h">Area Type</label><br>
+        <input class="l" type="text" name="area_type"><br>
+
+        <label class="h">Purpose</label><br>
+        <input class="l" type="text" name="purpose"><br>
+
+        <label class="h">Property Type</label><br>
+        <input class="l" type="text" name="Property_type"><br>
+
+
+        <input id="a" type="submit" value="Plot">
+    </form>
+
+
+
+</body>
+</html>
